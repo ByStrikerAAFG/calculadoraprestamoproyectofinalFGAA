@@ -1,0 +1,24 @@
+<resources>
+    <!-- Textos para la aplicación en inglés -->
+    <string name="app_name">Loan Calculator</string>
+    <string name="titulo_app">Loan Calculator</string>
+    <string name="hint_monto">Enter the loan amount</string>
+    <string name="btn_calcular">Calculate</string>
+    <string name="resultado">Total to pay:</string>
+    <string name="seleccione_plazo">Select the term</string>
+    <string name="toast_monto_invalido">Please enter a valid amount</string>
+    <string name="toast_plazo_invalido">Please select a valid term</string>
+
+    <!-- Spinner options -->
+    <string-array name="seleccione_plazo">
+        <item>3 months (10% interest)</item>
+        <item>6 months (25% interest)</item>
+        <item>1 year (35% interest)</item>
+    </string-array>
+
+    <!-- Dynamic result strings -->
+    <string name="monto_prestado">Loan amount: %1$.2f</string>
+    <string name="tasa_interes">Interest rate: %1$.2f%%</string>
+    <string name="plazo">Term: %1$d months</string>
+    <string name="total_a_pagar">Total to pay: %1$.2f</string>
+</resources>

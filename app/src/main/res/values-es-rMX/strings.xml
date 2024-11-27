@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cadenas para la aplicación en español -->
+    <string name="app_name">Calculadora de Préstamos</string>
+    <string name="titulo_app">Calculadora de Préstamos</string>
+    <string name="hint_monto">Ingrese el monto del préstamo</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="resultado">Total a pagar:</string>
+    <string name="seleccione_plazo">Seleccione el plazo</string>
+    <string name="toast_monto_invalido">Ingrese un monto válido</string>
+    <string name="toast_plazo_invalido">Seleccione un plazo válido</string>
+
+    <!-- Opciones del Spinner -->
+    <string-array name="seleccione_plazo">
+        <item>3 meses (10% interés)</item>
+        <item>6 meses (25% interés)</item>
+        <item>1 año (35% interés)</item>
+    </string-array>
+
+    <!-- Cadenas dinámicas para el resultado -->
+    <string name="monto_prestado">Monto prestado: %1$.2f</string>
+    <string name="tasa_interes">Tasa de interés: %1$.2f%%</string>
+    <string name="plazo">Plazo: %1$d meses</string>
+    <string name="total_a_pagar">Total a pagar: %1$.2f</string>
+</resources>

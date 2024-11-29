@@ -1,5 +1,4 @@
 <resources>
-    <!-- Tema principal -->
     <style name="Theme.CalculadoraPrestamos" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">#4CAF50</item>
         <item name="colorPrimaryVariant">#388E3C</item>
@@ -8,46 +7,39 @@
 
     </style>
 
-    <!-- Estilo para títulos -->
     <style name="Titulo">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#4CAF50</item>
     </style>
 
-    <!-- Estilo para campos de texto -->
     <style name="CampoTexto">
         <item name="android:padding">12dp</item>
         <item name="android:textColor">#333333</item>
         <item name="android:textSize">16sp</item>
     </style>
 
-    <!-- Estilo para botones -->
     <style name="Boton">
         <item name="android:backgroundTint">#4CAF50</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:layout_marginTop">16dp</item>
     </style>
     <style name="EditTextStyle">
-        <item name="android:textSize">24sp</item>  <!-- Aumenta el tamaño de la fuente -->
-        <item name="android:padding">18dp</item>  <!-- Agregar padding -->
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">18dp</item>
     </style>
 
-    <!-- Estilo para el Spinner -->
-    <!-- Estilo para el Spinner -->
     <style name="SpinnerStyle">
-        <item name="android:textSize">28sp</item>  <!-- Aumenta el tamaño de la fuente para el Spinner -->
+        <item name="android:textSize">28sp</item>
     </style>
 
-    <!-- Estilo para los elementos del Spinner (cuando está desplegado) -->
     <style name="SpinnerDropdownStyle">
-        <item name="android:textSize">28sp</item>  <!-- Aumenta el tamaño de la fuente en la lista desplegable -->
+        <item name="android:textSize">28sp</item>
     </style>
 
-    <!-- Estilo para el TextView (Resultado) -->
     <style name="TextViewStyle">
-        <item name="android:textSize">24sp</item>  <!-- Aumenta el tamaño de la fuente -->
-        <item name="android:textColor">#333333</item>  <!-- Color de texto -->
-        <item name="android:padding">18dp</item>  <!-- Agregar padding -->
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:padding">18dp</item>
     </style>
 </resources>

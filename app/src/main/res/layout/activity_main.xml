@@ -7,9 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Imagen -->
-
-    <!-- Texto: Total a pagar -->
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -45,11 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView2" />
 
-    <!-- Spinner para plazos -->
-
-    <!-- Campo de texto para el monto -->
-
-    <!-- Botón Calcular -->
+  
     <Spinner
         android:id="@+id/spPlazo"
         android:layout_width="0dp"
